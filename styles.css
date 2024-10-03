@@ -1,3 +1,25 @@
+html, body {
+    overflow: hidden;
+    height: 100%; 
+    margin: 0; 
+    padding: 0;   
+    background-color: black;
+}
 #niggers{
-    color: blue;
+    padding-left: 12.5%;
+    animation: Rainbow 1s linear infinite;
+}
+#edyta{
+    height: 60vh;
+    padding-top: 10%;
+}
+
+@keyframes Rainbow {
+    0% { color: red; }
+    16% { color: orange; }
+    33% { color: yellow; }
+    50% { color: green; }
+    66% { color: blue; }
+    83% { color: indigo; }
+    100% { color: violet; }
 }
